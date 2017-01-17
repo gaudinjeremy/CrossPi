@@ -1,5 +1,5 @@
 # CrossPi
-Un dérivé du GoPiGo de chez DEXTERINDUSTRIES à l'aide d'un peu de patiente et d'un ancienne boite de méccanos.
+Un dérivé du GoPiGo de chez DEXTERINDUSTRIES à l'aide d'un peu de patience et d'un ancienne boite de méccanos.
 
 ![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4106.JPG)
 
