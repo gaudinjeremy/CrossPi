@@ -29,5 +29,9 @@ Pour lancer le webSocket il faut executer la commande suivante :
 
 <p><i>(Bien sur la commande peux être executé automatiquement au lancement du Raspberry)</i></p>
 
-<p>Pour avoir le Stream et les commandes il suffit d'ouvrir la page "index.html" ou de vous connecter sur l'adresse Ip de votre raspberry via votre tablette ou téléphone. <i>Prennez soin de modifier le code des fichiers "index.html", "CrossPi.py" & "CrossPi.js" afin de rentrer l'adresse Ip fixe que vous avez donné à votre raspberry</i></p>
+<p>Pour avoir le Stream et les commandes il suffit d'ouvrir la page "<b><i>index.html</i></b>" ou de vous connecter sur l'adresse Ip de votre raspberry via votre tablette ou téléphone. <i>Prennez soin de modifier le code des fichiers "<b><i>index.html</i></b>", "<b><i>CrossPi.py</i></b>" & "<b><i>CrossPi.js</i></b>" afin de rentrer l'adresse Ip fixe que vous avez donné à votre raspberry</i></p>
+
+<h3>Commandes</h3>
+
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4111.JPG)
 
