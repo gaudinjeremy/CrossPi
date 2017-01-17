@@ -23,6 +23,7 @@ class Leds:
         led_off(LED_R)
 
 
+# Nécéssite le capteur "Ultrasonic Ranger" de chez DEXTERINDUSTRIES"
 class Capteurs:
 
     def __init__(self):
@@ -32,6 +33,8 @@ class Capteurs:
         return us_dist(15)
 
 
+# Nécéssite le capteur de collision de chez GROVE"
+# à brancher sur le port D10
 class Attitude:
 
     def __init__(self):
@@ -41,7 +44,7 @@ class Attitude:
         collision_sensor = 10
         pinMode(collision_sensor,"INPUT")
         return digitalRead(collision_sensor)
-
+        #renvoi 1 si aucune collision de détecté, en cas de collision renvoi 0
 
 class Monitor:
 
@@ -75,6 +78,7 @@ class Camera:
             self.cameraStreamerProcess.terminate()
 
 
+# Nécéssite le Servo-moteur" de chez DEXTERINDUSTRIES"
 class ServoMotor:
 
     def __init__(self):
@@ -128,7 +132,7 @@ class AutoPilot(threading.Thread):
     def stop(self):
         self._etat = False
 
-
+# Renvoi les infomations système et les données recueilli par les capteurs sur l'interface
 class System(threading.Thread):
 
     def __init__(self):
