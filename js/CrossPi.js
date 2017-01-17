@@ -252,7 +252,8 @@ $(function() {
     document.body.addEventListener('touchmove', function(event) {
         event.preventDefault();
     }, false);
-
+    
+// Changez l'Ip par la votre
     websocket = new WebSocket('ws://192.168.0.24:1234/');
     websocket.onopen = function(talk) {onOpen(talk)};
     websocket.onclose = function(talk) { onClose(talk) };
@@ -361,7 +362,8 @@ setInterval( function() {
         }
     }
     else {
-
+        
+        // Changez l'Ip par la votre
         websocket = new WebSocket('ws://192.168.0.24:1234/');
     }
 }, 250 );
