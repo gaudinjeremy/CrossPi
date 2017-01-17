@@ -10,6 +10,7 @@ Un dérivé du GoPiGo de chez DEXTERINDUSTRIES à l'aide d'un peu de patiente et
 <li>Un Raspberry Pi (A/B/B+)</li>
 <li>Une carte mémoire</li>
 <li>Un dongle Wifi selon les Raspberry</li>
+<li>Une alimentation entre 9v et 15v <b><i>(J'ai choisis de l'alimenter avec 3 piles rechargeables de 3,7V pour un gain de place)</i></b>
 </ul>
 
 <h3>Software</h3>
