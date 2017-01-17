@@ -320,7 +320,8 @@ if __name__ == '__main__':
     motors = Motors()
     autopilot = AutoPilot()
     system = System()
-
+    
+# Changez l'Ip par la votre
     server = SimpleWebSocketServer('192.168.0.24', 1234, CrossPi)
     socket = threading.Thread(target=server.serveforever)
     socket.start()
