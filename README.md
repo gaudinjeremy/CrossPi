@@ -56,3 +56,17 @@ Pour lancer le webSocket il faut executer la commande suivante :
 </ul>
 
 <h3>Quelques photos</h3>
+
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4094.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4095.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4096.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4098.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4099.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4100.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4101.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4102.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4103.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4104.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4105.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4106.JPG)
+![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4107.JPG)
