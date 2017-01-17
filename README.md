@@ -29,9 +29,19 @@ Pour lancer le webSocket il faut executer la commande suivante :
 
 <p><i>(Bien sur la commande peux être executé automatiquement au lancement du Raspberry)</i></p>
 
-<p>Pour avoir le Stream et les commandes il suffit d'ouvrir la page "<b><i>index.html</i></b>" ou de vous connecter sur l'adresse Ip de votre raspberry via votre tablette ou téléphone. <i>Prennez soin de modifier le code des fichiers "<b><i>index.html</i></b>", "<b><i>CrossPi.py</i></b>" & "<b><i>CrossPi.js</i></b>" afin de rentrer l'adresse Ip fixe que vous avez donné à votre raspberry</i></p>
+<p>Pour avoir le Stream et les commandes il suffit d'ouvrir la page "<b><i>index.html</i></b>" ou de vous connecter sur l'adresse Ip de votre Raspberry via votre tablette ou téléphone. <i>Prennez soin de modifier le code des fichiers "<b><i>index.html</i></b>", "<b><i>CrossPi.py</i></b>" & "<b><i>CrossPi.js</i></b>" afin de rentrer l'adresse Ip fixe que vous avez donné à votre raspberry</i></p>
 
 <h3>Commandes</h3>
 
 ![ CrossPi ](https://github.com/gaudinjeremy/CrossPi/blob/master/_Photos/IMG_4112.PNG)
 
+<ul>
+<li>L'ampoule en haut à gauche permet d'allumer ou d'éteindre les leds</li>
+<li>La barre transparente en haut change en fonction de la proximité capté par le capteur ultrason</li>
+<li>Le Joystick de gauche permet d'ajuster la vitesse</li>
+<li>Le Joystick de droite permet d'ajuster la direction</li>
+<li>L'icone de batterie affiche le voltage de l'alimentation <i>(Recommandé entre 9V et 15V)</i></li>
+<li>Le compteur de gauche représente la température du Raspberry</li>
+<li>Le compteur de droite représente la vitesse des moteurs <i>(Plage de fonctionnement 0-255)</i></li>
+<li>L'icone à droite du compteur de vitesse représente en % l'utilisation du CPU du Raspberry</li>
+</ul>
