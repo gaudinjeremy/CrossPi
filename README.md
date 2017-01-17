@@ -11,3 +11,10 @@ Un dérivé du GoPiGo de chez DEXTERINDUSTRIES
 <li>Une carte mémoire</li>
 <li>Un dongle Wifi selon les Raspberry</li>
 </ul>
+
+<h3>Software</h3>
+<ul>
+<li>Installer un serveur Apache ou Nginx sur le Raspberry</li>
+<li>Installer la librairie du GoPiGo <a href="https://github.com/DexterInd/GoPiGo">Lien</a></li>
+<li>Installer le script pour le streaming video <a href="https://github.com/DexterInd/GoPiGo/blob/master/Software/Python/Examples/Browser_Streaming_Robot/browser_stream_setup.sh">Lien</a></li>
+</ul>
