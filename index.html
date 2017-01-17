@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <meta name="description" content="CrossPi">
+        <meta name="author" content="GAUDIN Jérémy">
+        <link rel="icon" href="">
+
+        <title>CrossPi</title>
+
+        <link rel="stylesheet" href="dist/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/CrossPi.css">
+        <link rel="stylesheet" href="css/jquery-gauge.css">
+    </head>
+    <body>
+        <img id="cameraStream" src="http://192.168.0.24:8080/?action=stream" />
+        <div id="leds"><i id="faLeds" class="fa fa-lightbulb-o fa-2x"></i></div>
+
+        <div class="ultrasons">
+            <div id="valUltrasonLeft" class="valUltrasons"></div>
+            <div id="valUltrasonRight" class="valUltrasons"></div>
+        </div>
+
+        <div id="directionPointer" class="round">
+            <div id="ligneX"></div>
+            <div id="ligneY"></div>
+            <div id="pointer25"></div>
+            <div id="pointer50"></div>
+            <div id="pointer75">
+                <div id="pointer"></div>
+            </div>
+        </div>
+
+        <div id="message"></div>
+
+        <div id="compteurs">
+            <div id="volts">
+                <i id="faVolt" class="fa fa-battery-empty fa-2x" style="color :red"></i> <span id="valVolt"></span>
+            </div>
+            <div id="temperature"></div>
+            <i id="faTemperature" class="fa fa-thermometer"></i>
+            <div id="vitesse"></div>
+            <i id="back" class="fa fa-reply-all"></i>
+            <i id="rotate" style="" class="fa fa-refresh"></i>
+            <div id="cpu">
+                <i id="faCpu" class="fa fa-microchip fa-2x"></i> <span id="valCpu"></span>
+            </div>
+        </div>
+
+        <img id="joystickLeft" src="img/levier.png"/>
+        <img id="joystickRight" src="img/volant.png"/>
+    </body>
+    <script src="dist/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="dist/jQuery/jquery-ui.min.js"></script>
+    <script src="dist/jQuery/jquery.ui.touch-punch.min.js"></script>
+    <script src="dist/jQuery/jquery-gauge.min.js"></script>
+    <script src="js/CrossPi.js"></script>
+</html>

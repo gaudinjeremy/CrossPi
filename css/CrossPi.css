@@ -1,0 +1,274 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html {
+    background-color: grey;
+    max-width: 100%;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+}
+
+#cameraStream {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width:100%;
+    height: 100%;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+#leds{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+.light {
+    color : rgba(255, 222, 0, 0.8);
+}
+
+.ultrasons {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#valUltrasonLeft {
+    left: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#valUltrasonRight {
+    right: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.valUltrasons {
+    position: absolute;
+    width: 0px;
+    height: 100%;
+}
+
+.far {
+    background-color: rgba(0, 255, 18, 0.3);
+}
+
+.middle {
+    background-color: rgba(255, 222, 0, 0.3);
+}
+
+.close {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+#directionPointer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+#ligneX {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    top: 50%;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+}
+
+#ligneY {
+    position: absolute;
+    width: 0px;
+    height: 80px;
+    left: 50%;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%);
+}
+
+#pointer25 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#pointer50 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#pointer75 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#pointer {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.round {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#message {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px dashed rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+#compteurs {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 290px;
+    height: 108px;
+    transform: translateX(-50%);
+}
+
+#volts{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#valVolt {
+    position: absolute;
+    top:10px;
+    left: 8px;
+    font-size:10px;
+    color:white;
+}
+
+#temperature {
+    position: absolute;
+    bottom: 0px;
+    left: 35px;
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    border: 4px solid black;
+}
+
+#faTemperature {
+    position: absolute;
+    bottom: 3px;
+    left:31%;
+    color: #ffa500;
+    transform: translateX(-50%);
+}
+
+#vitesse {
+    position: absolute;
+    bottom: 0px;
+    right: 35px;
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    border: 4px solid black;
+}
+
+#back {
+    position: absolute;
+    bottom: 3px;
+    left:69%;
+    color: #ffa500;
+    display:none;
+    transform: translateX(-50%);
+}
+
+#rotate {
+    position: absolute;
+    bottom: 3px;
+    left:69%;
+    color: #ffa500;
+    transform: translateX(-50%);
+}
+
+#cpu{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+#faCpu {
+    color :red;
+    transform: rotate(90deg);
+}
+
+#valCpu {
+    position: absolute;
+    right: 0px;
+    top:10px;
+    font-size:10px;
+    color:white;
+}
+
+#joystickLeft {
+    position: absolute;
+    top: 70%;
+    left: 25px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+#joystickRight {
+    position: absolute;
+    bottom: 25px;
+    left: 80%;
+    width:50px;
+    height:50px;
+    border-radius:50%
+}
